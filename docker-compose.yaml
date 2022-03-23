@@ -1,6 +1,6 @@
 version: "3.3"
 services:
   flask-app:
-    image: hoannk/flask-docker:latest
+    image: hoanuchiha98/flask-docker:latest
     ports:
       - "5000:5000"

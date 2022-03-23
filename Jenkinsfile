@@ -3,7 +3,7 @@ pipeline {
   agent none
 
   environment {
-    DOCKER_IMAGE = "hoannk/flask-docker"
+    DOCKER_IMAGE = "hoanuchiha98/flask-docker"
   }
 
   stages {
