@@ -43,6 +43,7 @@ pipeline {
     }
 
     stage("deploy") {
+      agent { label "${master}"}
       steps {
         echo "deploy app"
         sh ("./deploy.sh")
