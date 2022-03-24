@@ -41,6 +41,12 @@ pipeline {
         sh "docker image rm ${DOCKER_IMAGE}:latest"
       }
     }
+
+    stage("deploy") {
+      steps {
+        sh "./deploy.sh"
+      }
+    }
   }
 
   post {
